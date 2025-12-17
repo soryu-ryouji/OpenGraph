@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "Project Graph",
+  "productName": "OpenGraph",
   "version": "2.7.0",
-  "identifier": "liren.project-graph",
+  "identifier": "ryouji.open-graph",
   "build": {
     "beforeDevCommand": "",
     "devUrl": "http://localhost:1420",
@@ -14,7 +14,7 @@
     "windows": [
       {
         "label": "main",
-        "title": "Project Graph",
+        "title": "Open Graph",
         "width": 1200,
         "height": 800,
         "decorations": false,
@@ -23,7 +23,7 @@
       },
       {
         "label": "splash",
-        "title": "Project Graph Startup",
+        "title": "Open Graph Startup",
         "url": "/splash",
         "width": 640,
         "height": 375,

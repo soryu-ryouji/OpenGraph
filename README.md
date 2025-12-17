@@ -1,4 +1,4 @@
-# Project Graph
+# Open Graph
 
 基于 [Project Graph](https://github.com/graphif/project-graph) 项目的二次开发版
 

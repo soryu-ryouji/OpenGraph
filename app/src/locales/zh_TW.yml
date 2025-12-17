@@ -9,7 +9,7 @@ welcome:
   qq: QQ 群組
 
 about:
-  title: Project Graph 計劃投射
+  title: Open Graph
   intro:
   - 軟體介紹
   - 這是一個基於tauri框架的快速繪製節點圖的工具，可以用於專案拓撲圖繪製、快速頭腦風暴草稿
