@@ -4,9 +4,9 @@ import { activeProjectAtom, store } from "@/state";
 import { Vector } from "@graphif/data-structures";
 import { Rectangle } from "@graphif/shapes";
 import { useState } from "react";
-import AboutTab from "./about";
+// import AboutTab from "./about";
 import AppearanceTab from "./appearance";
-import CreditsTab from "./credits";
+// import CreditsTab from "./credits";
 import KeyBindsPage from "./keybinds";
 import SettingsTab from "./settings";
 import ThemesTab from "./themes";
@@ -26,8 +26,8 @@ export default function SettingsWindow({ defaultTab = "settings" }: { defaultTab
           <TabsTrigger value="keybindsGlobal">全局快捷键</TabsTrigger>
           <TabsTrigger value="appearance">个性化</TabsTrigger>
           <TabsTrigger value="themes">主题</TabsTrigger>
-          <TabsTrigger value="about">关于</TabsTrigger>
-          <TabsTrigger value="credits">鸣谢</TabsTrigger>
+          {/* <TabsTrigger value="about">关于</TabsTrigger> */}
+          {/* <TabsTrigger value="credits">鸣谢</TabsTrigger> */}
         </TabsList>
         <div data-pg-drag-region className="h-full flex-1" />
       </div>
@@ -46,12 +46,12 @@ export default function SettingsWindow({ defaultTab = "settings" }: { defaultTab
       <TabsContent value="themes" className="overflow-auto">
         <ThemesTab />
       </TabsContent>
-      <TabsContent value="about" className="overflow-auto">
+      {/* <TabsContent value="about" className="overflow-auto">
         <AboutTab />
-      </TabsContent>
-      <TabsContent value="credits" className="overflow-auto">
+      </TabsContent> */}
+      {/* <TabsContent value="credits" className="overflow-auto">
         <CreditsTab />
-      </TabsContent>
+      </TabsContent> */}
     </Tabs>
   );
 }

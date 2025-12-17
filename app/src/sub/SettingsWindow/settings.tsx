@@ -309,9 +309,9 @@ const categories = {
     ],
     experimental: ["compatibilityMode", "isEnableEntityCollision"],
   },
-  ai: {
-    api: ["aiApiBaseUrl", "aiApiKey", "aiModel", "aiShowTokenCount"],
-  },
+  // ai: {
+  //   api: ["aiApiBaseUrl", "aiApiKey", "aiModel", "aiShowTokenCount"],
+  // },
 };
 
 const categoryIcons = {

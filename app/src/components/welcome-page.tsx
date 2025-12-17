@@ -153,7 +153,7 @@ export default function WelcomePage() {
             </div>
           </div>
           {/* 右侧区域 */}
-          <div className="flex flex-col *:flex *:w-max *:cursor-pointer *:gap-2 *:hover:opacity-75 *:active:scale-90 sm:gap-2">
+          {/* <div className="flex flex-col *:flex *:w-max *:cursor-pointer *:gap-2 *:hover:opacity-75 *:active:scale-90 sm:gap-2">
             <div onClick={() => SettingsWindow.open("settings")}>
               <SettingsIcon />
               <span className="hidden sm:inline">{t("settings")}</span>
@@ -166,7 +166,7 @@ export default function WelcomePage() {
               <Earth />
               <span className="hidden sm:inline">{t("website")}</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

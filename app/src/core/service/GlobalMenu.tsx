@@ -15,7 +15,7 @@ import { loadAllServicesAfterInit, loadAllServicesBeforeInit } from "@/core/load
 import { Project, ProjectState } from "@/core/Project";
 import { KeyBindsUI } from "./controlService/shortcutKeysEngine/KeyBindsUI";
 import { activeProjectAtom, isClassroomModeAtom, isDevAtom, projectsAtom, store } from "@/state";
-import AIWindow from "@/sub/AIWindow";
+// import AIWindow from "@/sub/AIWindow";
 import AttachmentsWindow from "@/sub/AttachmentsWindow";
 import LogicNodePanel from "@/sub/AutoComputeWindow";
 import ExportPngWindow from "@/sub/ExportPngWindow";
@@ -967,7 +967,7 @@ export function GlobalMenu() {
       </Menu>
 
       {/* AI */}
-      <Menu>
+      {/* <Menu>
         <Trigger disabled={!activeProject}>
           <Bot />
           <span className="hidden sm:inline">{t("ai.title")}</span>
@@ -978,7 +978,7 @@ export function GlobalMenu() {
             {t("ai.openAIPanel")}
           </Item>
         </Content>
-      </Menu>
+      </Menu> */}
 
       {/* 视图 */}
       <Menu>
@@ -1171,7 +1171,7 @@ export function GlobalMenu() {
       </Menu>
 
       {/* 关于 */}
-      <Menu>
+      {/* <Menu>
         <Trigger>
           <CircleAlert />
           <span className="hidden sm:inline">{t("about.title")}</span>
@@ -1290,7 +1290,7 @@ export function GlobalMenu() {
             1.8 至 2.0 升级使用指南
           </Item>
         </Content>
-      </Menu>
+      </Menu> */}
 
       {isUnstableVersion && (
         <Menu>

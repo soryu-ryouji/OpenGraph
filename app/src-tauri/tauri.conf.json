@@ -1,7 +1,7 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
   "productName": "Project Graph",
-  "version": "0.0.0-dev",
+  "version": "2.7.0",
   "identifier": "liren.project-graph",
   "build": {
     "beforeDevCommand": "",
@@ -97,6 +97,13 @@
           "multiple": false
         }
       ]
+    },
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEIyQzM3OTE1QjgwRTRCNzEKUldSeFN3NjRGWG5Ec2hVb05sWGZhVmpJdEVCR2cwNmM4UXlISEN5eHJBeFlCQkF3VjV6Z0tEY08K",
+      "endpoints": ["https://release.project-graph.top/update/{{target}}/{{arch}}/{{current_version}}"],
+      "windows": {
+        "installMode": "passive"
+      }
     },
     "fs": {
       "requireLiteralLeadingDot": false
