@@ -1,4 +1,4 @@
-`# Open Graph
+# Open Graph
 
 ## 项目说明
 
