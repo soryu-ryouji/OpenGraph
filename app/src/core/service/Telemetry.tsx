@@ -13,6 +13,8 @@ export namespace Telemetry {
    * @returns
    */
   export async function event(event: string, data: any = {}) {
+    // 关闭所有遥测
+    return;
     if (import.meta.env.DEV) return; // 本地开发模式就不发了
     if (!FeatureFlags.TELEMETRY) return;
     if (!Settings.telemetry) return;
